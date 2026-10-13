@@ -1,0 +1,158 @@
+{
+  "evaluation_type": "answer_quality_and_abstention",
+  "timestamp_utc": "2026-10-13T13:55:56.794932+00:00",
+  "summary": {
+    "answer_quality": {
+      "passed": 13,
+      "total": 13,
+      "pass_rate": 1.0
+    },
+    "abstention": {
+      "passed": 2,
+      "total": 2,
+      "pass_rate": 1.0
+    },
+    "overall": {
+      "passed": 15,
+      "total": 15,
+      "pass_rate": 1.0
+    }
+  },
+  "results": {
+    "answerable_questions": [
+      {
+        "question": "How many annual leave days do employees receive?",
+        "passed": true,
+        "answer": "Full-time employees receive 20 days of paid annual leave per calendar year.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "How early should employees apply for annual leave?",
+        "passed": true,
+        "answer": "Employees must submit annual leave requests at least five working days before the intended leave date.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "Who approves annual leave requests?",
+        "passed": true,
+        "answer": "The employee's direct manager reviews and approves or rejects annual leave requests.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "Can unused annual leave carry over to the next year?",
+        "passed": true,
+        "answer": "Unused annual leave does not automatically carry over into the next calendar year. Contact HR for clarification about carryover exceptions.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "When should an employee notify their manager about sick leave?",
+        "passed": true,
+        "answer": "Employees should notify their manager as soon as reasonably possible when they cannot work because of illness.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "How many paid sick-leave days are guaranteed?",
+        "passed": true,
+        "answer": "The document does not specify a fixed number of paid sick-leave days.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "Does the policy define parental-leave eligibility?",
+        "passed": true,
+        "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "How long is parental leave?",
+        "passed": true,
+        "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "Is parental leave paid under this policy?",
+        "passed": true,
+        "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "How do employees apply for parental leave?",
+        "passed": true,
+        "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "Does the policy mention remote work?",
+        "passed": true,
+        "answer": "The policy does not define remote work eligibility or remote-work schedules.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "How many vacation days do employees get?",
+        "passed": true,
+        "answer": "Full-time employees receive 20 days of paid annual leave per calendar year.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      },
+      {
+        "question": "Where should employees go for clarification about parental leave?",
+        "passed": true,
+        "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+        "source_count": 1,
+        "answer_missing_facts": [],
+        "source_missing_facts": [],
+        "failures": []
+      }
+    ],
+    "unsupported_questions": [
+      {
+        "question": "What work-from-home allowance do employees receive?",
+        "passed": true,
+        "answer": "I couldn't find sufficiently relevant evidence in the available documents to answer this question.",
+        "source_count": 0,
+        "failures": []
+      },
+      {
+        "question": "What is the company's travel reimbursement limit?",
+        "passed": true,
+        "answer": "I couldn't find sufficiently relevant evidence in the available documents to answer this question.",
+        "source_count": 0,
+        "failures": []
+      }
+    ]
+  }
+}

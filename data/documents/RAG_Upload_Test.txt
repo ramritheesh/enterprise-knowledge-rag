@@ -1,0 +1,5 @@
+RAG Upload Verification Document
+
+The fictional Acme testing team holds its weekly knowledge review every Wednesday at 3 PM.
+
+The internal test project is named Project Bluebird.

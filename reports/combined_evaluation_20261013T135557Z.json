@@ -1,0 +1,892 @@
+{
+  "evaluation_type": "combined_rag_evaluation",
+  "timestamp_utc": "2026-10-13T13:55:57.535826+00:00",
+  "summary": {
+    "retrieval": {
+      "passed": 18,
+      "total": 18,
+      "hit_rate": 1.0,
+      "mrr": 0.8425925925925926,
+      "top_k": 5
+    },
+    "answer_quality": {
+      "passed": 13,
+      "total": 13,
+      "pass_rate": 1.0
+    },
+    "answer_abstention": {
+      "passed": 2,
+      "total": 2,
+      "pass_rate": 1.0
+    },
+    "retrieval_abstention": {
+      "passed": 2,
+      "total": 2,
+      "pass_rate": 1.0
+    },
+    "overall": {
+      "passed": 33,
+      "total": 33,
+      "pass_rate": 1.0
+    }
+  },
+  "results": {
+    "retrieval": [
+      {
+        "question": "How many annual leave days do employees receive?",
+        "expected_keyword": "20 days of paid annual leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.22165095806121826,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.41050946712493896,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.41367191076278687,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4476032257080078,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4946620464324951,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          }
+        ]
+      },
+      {
+        "question": "How many annual leave days are provided each year?",
+        "expected_keyword": "20 days of paid annual leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.25481629371643066,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4307764768600464,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.46787697076797485,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.46910417079925537,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4864734411239624,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          }
+        ]
+      },
+      {
+        "question": "How much yearly paid leave is available?",
+        "expected_keyword": "20 days of paid annual leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3322051763534546,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4900602102279663,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5297754406929016,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5396697521209717,
+            "evidence": "7. Parental Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5472500324249268,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          }
+        ]
+      },
+      {
+        "question": "How early should employees apply for annual leave?",
+        "expected_keyword": "five working days",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.30732816457748413,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4115133285522461,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5007081031799316,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5545872449874878,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5552952885627747,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          }
+        ]
+      },
+      {
+        "question": "What is the notice period for annual leave?",
+        "expected_keyword": "five working days",
+        "passed": true,
+        "matching_rank": 2,
+        "reciprocal_rank": 0.5,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.31003642082214355,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.38521289825439453,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4213162064552307,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4703170657157898,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4817599058151245,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          }
+        ]
+      },
+      {
+        "question": "Who approves annual leave requests?",
+        "expected_keyword": "direct manager",
+        "passed": true,
+        "matching_rank": 3,
+        "reciprocal_rank": 0.3333333333333333,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3753894567489624,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.40103471279144287,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.40364670753479004,
+            "evidence": "The employee's direct manager reviews and approves or rejects annual leave requests.\n\n5. Carryover"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4303622841835022,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5100141167640686,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          }
+        ]
+      },
+      {
+        "question": "Who reviews an annual leave request?",
+        "expected_keyword": "direct manager",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3678790330886841,
+            "evidence": "The employee's direct manager reviews and approves or rejects annual leave requests.\n\n5. Carryover"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4128285050392151,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.44416123628616333,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.46446990966796875,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5171865224838257,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          }
+        ]
+      },
+      {
+        "question": "Can unused annual leave carry over to the next year?",
+        "expected_keyword": "does not automatically carry over",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.1894150972366333,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4229835271835327,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4510228633880615,
+            "evidence": "The employee's direct manager reviews and approves or rejects annual leave requests.\n\n5. Carryover"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5030675530433655,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.528374969959259,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          }
+        ]
+      },
+      {
+        "question": "What exceptions are allowed for annual leave carryover?",
+        "expected_keyword": "carryover exceptions",
+        "passed": true,
+        "matching_rank": 3,
+        "reciprocal_rank": 0.3333333333333333,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.39577633142471313,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3979565501213074,
+            "evidence": "The employee's direct manager reviews and approves or rejects annual leave requests.\n\n5. Carryover"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5095891952514648,
+            "evidence": "3 | Manager approves or rejects the request.\n\n4 | Employee checks with HR if they need clarification about carryover exceptions."
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5156720876693726,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5392042398452759,
+            "evidence": "7. Parental Leave"
+          }
+        ]
+      },
+      {
+        "question": "When should an employee notify their manager about sick leave?",
+        "expected_keyword": "as soon as reasonably possible",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.22768771648406982,
+            "evidence": "Employees should notify their manager as soon as reasonably possible when they cannot work because of illness."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3974929451942444,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5119795799255371,
+            "evidence": "6. Sick Leave"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5851767063140869,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.6273096203804016,
+            "evidence": "The employee's direct manager reviews and approves or rejects annual leave requests.\n\n5. Carryover"
+          }
+        ]
+      },
+      {
+        "question": "How many paid sick-leave days are guaranteed?",
+        "expected_keyword": "does not specify a fixed number of paid sick-leave days",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.17243194580078125,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.36257827281951904,
+            "evidence": "6. Sick Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.37452375888824463,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5441727638244629,
+            "evidence": "Employees should notify their manager as soon as reasonably possible when they cannot work because of illness."
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5621576905250549,
+            "evidence": "7. Parental Leave"
+          }
+        ]
+      },
+      {
+        "question": "Does the policy define parental-leave eligibility?",
+        "expected_keyword": "does not define parental-leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.23903357982635498,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3539644479751587,
+            "evidence": "7. Parental Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4729217290878296,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4989292621612549,
+            "evidence": "8. Remote Work\n\nThis leave policy does not define remote-work eligibility or remote-work schedules.\n\n9. Leave Request Workflow\n\nStep | Action"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.6216475963592529,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          }
+        ]
+      },
+      {
+        "question": "How long is parental leave?",
+        "expected_keyword": "does not define parental-leave",
+        "passed": true,
+        "matching_rank": 2,
+        "reciprocal_rank": 0.5,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.22791683673858643,
+            "evidence": "7. Parental Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3920249342918396,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.48121047019958496,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5203820466995239,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5992262363433838,
+            "evidence": "Unused annual leave does not automatically carry over into the next calendar year."
+          }
+        ]
+      },
+      {
+        "question": "Is parental leave paid under this policy?",
+        "expected_keyword": "does not define parental-leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.2673976421356201,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.36496496200561523,
+            "evidence": "7. Parental Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4812048077583313,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5305173993110657,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5675238370895386,
+            "evidence": "8. Remote Work\n\nThis leave policy does not define remote-work eligibility or remote-work schedules.\n\n9. Leave Request Workflow\n\nStep | Action"
+          }
+        ]
+      },
+      {
+        "question": "How do employees apply for parental leave?",
+        "expected_keyword": "does not define parental-leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.29331666231155396,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3280832767486572,
+            "evidence": "7. Parental Leave"
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4745282530784607,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5007615089416504,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5194718837738037,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          }
+        ]
+      },
+      {
+        "question": "Does the policy mention remote work?",
+        "expected_keyword": "remote work",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.43448102474212646,
+            "evidence": "8. Remote Work\n\nThis leave policy does not define remote-work eligibility or remote-work schedules.\n\n9. Leave Request Workflow\n\nStep | Action"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.7059318423271179,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.7305072546005249,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.7405028343200684,
+            "evidence": "3 | Manager approves or rejects the request.\n\n4 | Employee checks with HR if they need clarification about carryover exceptions."
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.7536846399307251,
+            "evidence": "1 | Employee submits the request to their direct manager.\n\n2 | Manager reviews the requested dates and team coverage."
+          }
+        ]
+      },
+      {
+        "question": "How many vacation days do employees get?",
+        "expected_keyword": "20 days of paid annual leave",
+        "passed": true,
+        "matching_rank": 1,
+        "reciprocal_rank": 1.0,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.3953280448913574,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.4541689157485962,
+            "evidence": "This document does not specify a fixed number of paid sick-leave days."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5596396923065186,
+            "evidence": "Employees must submit annual leave requests at least five working days before the intended leave date.\n\n4. Approval Authority"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5643807053565979,
+            "evidence": "6. Sick Leave"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5938080549240112,
+            "evidence": "7. Parental Leave"
+          }
+        ]
+      },
+      {
+        "question": "Where should employees go for clarification about parental leave?",
+        "expected_keyword": "contact HR",
+        "passed": true,
+        "matching_rank": 2,
+        "reciprocal_rank": 0.5,
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.31064373254776,
+            "evidence": "7. Parental Leave"
+          },
+          {
+            "rank": 2,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.33673954010009766,
+            "evidence": "This sample policy does not define parental-leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance."
+          },
+          {
+            "rank": 3,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.49487435817718506,
+            "evidence": "This policy explains annual leave and leave-request procedures for employees of Acme Technologies.\n\n2. Annual Leave Entitlement"
+          },
+          {
+            "rank": 4,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5418663024902344,
+            "evidence": "The employee's direct manager reviews and approves or rejects annual leave requests.\n\n5. Carryover"
+          },
+          {
+            "rank": 5,
+            "source": "Acme_Employee_Leave_Policy.docx",
+            "distance": 0.5463027358055115,
+            "evidence": "Full-time employees receive 20 days of paid annual leave per calendar year.\n\n3. Requesting Leave"
+          }
+        ]
+      }
+    ],
+    "retrieval_abstention": [
+      {
+        "question": "What work-from-home allowance do employees receive?",
+        "passed": true,
+        "answer": "I couldn't find sufficiently relevant evidence in the available documents to answer this question.",
+        "source_count": 0,
+        "error": null
+      },
+      {
+        "question": "What is the company's travel reimbursement limit?",
+        "passed": true,
+        "answer": "I couldn't find sufficiently relevant evidence in the available documents to answer this question.",
+        "source_count": 0,
+        "error": null
+      }
+    ],
+    "answer_quality": {
+      "answerable_questions": [
+        {
+          "question": "How many annual leave days do employees receive?",
+          "passed": true,
+          "answer": "Full-time employees receive 20 days of paid annual leave per calendar year.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "How early should employees apply for annual leave?",
+          "passed": true,
+          "answer": "Employees must submit annual leave requests at least five working days before the intended leave date.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "Who approves annual leave requests?",
+          "passed": true,
+          "answer": "The employee's direct manager reviews and approves or rejects annual leave requests.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "Can unused annual leave carry over to the next year?",
+          "passed": true,
+          "answer": "Unused annual leave does not automatically carry over into the next calendar year. Contact HR for clarification about carryover exceptions.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "When should an employee notify their manager about sick leave?",
+          "passed": true,
+          "answer": "Employees should notify their manager as soon as reasonably possible when they cannot work because of illness.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "How many paid sick-leave days are guaranteed?",
+          "passed": true,
+          "answer": "The document does not specify a fixed number of paid sick-leave days.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "Does the policy define parental-leave eligibility?",
+          "passed": true,
+          "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "How long is parental leave?",
+          "passed": true,
+          "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "Is parental leave paid under this policy?",
+          "passed": true,
+          "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "How do employees apply for parental leave?",
+          "passed": true,
+          "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "Does the policy mention remote work?",
+          "passed": true,
+          "answer": "The policy does not define remote work eligibility or remote-work schedules.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "How many vacation days do employees get?",
+          "passed": true,
+          "answer": "Full-time employees receive 20 days of paid annual leave per calendar year.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        },
+        {
+          "question": "Where should employees go for clarification about parental leave?",
+          "passed": true,
+          "answer": "The policy does not specify parental leave eligibility, duration, pay, or application procedures. Employees should contact HR for guidance.",
+          "source_count": 1,
+          "answer_missing_facts": [],
+          "source_missing_facts": [],
+          "failures": []
+        }
+      ],
+      "unsupported_questions": [
+        {
+          "question": "What work-from-home allowance do employees receive?",
+          "passed": true,
+          "answer": "I couldn't find sufficiently relevant evidence in the available documents to answer this question.",
+          "source_count": 0,
+          "failures": []
+        },
+        {
+          "question": "What is the company's travel reimbursement limit?",
+          "passed": true,
+          "answer": "I couldn't find sufficiently relevant evidence in the available documents to answer this question.",
+          "source_count": 0,
+          "failures": []
+        }
+      ]
+    }
+  }
+}
